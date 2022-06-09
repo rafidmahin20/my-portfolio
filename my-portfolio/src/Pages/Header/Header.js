@@ -6,7 +6,7 @@ const Header = () => {
       <header className="text-white body-font bg-white shadow " style={{ backgroundColor: "#7a81a8" }}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <h1 className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <span className="ml-3 text-xl uppercase">Milburn Tools</span>
+          <span className="ml-3 text-xl uppercase">Rafid</span>
         </h1>
         <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <Link
@@ -21,7 +21,7 @@ const Header = () => {
             href="#"
             class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2"
           >
-            Tools
+            Projects
           </Link>
           <Link
             to="/about"
@@ -38,7 +38,7 @@ const Header = () => {
             Blogs
           </Link>
         </nav>
-        <Link to='/login'>
+        <Link to='/contactme'>
         <button className=" inline-flex items-center btn btn-secondary border-0 py-1 px-3 focus:outline-none hover:btn-accent rounded text-base mt-4 md:mt-0">
          Contact me
         </button>
