@@ -1,5 +1,5 @@
 import React from "react";
-import me from '../../Images/me.png'
+import rafid from '../../Images/rafid.jpg'
 
 
 const Banner = () => {
@@ -39,7 +39,7 @@ const Banner = () => {
                 <div className="mt-8 lg:mt-0 lg:w-1/2">
                     <div className="flex items-center justify-center lg:justify-end">
                         <div className="max-w-lg">
-                            <img className="object-cover object-center w-full h-64 rounded-md shadow" src={me} alt=""/>
+                            <img className="object-cover object-center w-full h-64 rounded-md shadow" src={rafid} alt=""/>
                         </div>
                     </div>
                 </div>
