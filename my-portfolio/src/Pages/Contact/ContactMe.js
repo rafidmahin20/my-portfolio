@@ -6,7 +6,7 @@ const ContactMe = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_ajah6fu', form.current, 'Ga7OQTOIGcNXCANa_')
+    emailjs.sendForm('service_c0ba8ib', 'template_ajah6fu', e.target, 'Ga7OQTOIGcNXCANa_')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
