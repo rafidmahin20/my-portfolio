@@ -1,28 +1,50 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light">
-      <div className="container-fluid container">
-        <h1 className='uppercase font-bold text-2xl'>Rafid</h1>
-        <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link" href="#about">Resume</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projects">Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#Testimonials">Reviews</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+      <header className="text-white body-font bg-white shadow dark:bg-gray-500">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <h1 className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <span className="ml-3 text-xl uppercase">Milburn Tools</span>
+        </h1>
+        <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+          <Link
+            to="/"
+            href="#"
+            class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2"
+          >
+            Home
+          </Link>
+          <Link
+            to="/tools"
+            href="#"
+            class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2"
+          >
+            Tools
+          </Link>
+          <Link
+            to="/about"
+            href="#"
+            class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2"
+          >
+            About
+          </Link>
+          <Link
+            to="/blogs"
+            href="#"
+            class="px-2 py-1 text-sm font-medium text-gray-700 transition-colors duration-200 transform rounded dark:text-gray-200 hover:bg-gray-900 hover:text-gray-100 md:mx-2"
+          >
+            Blogs
+          </Link>
+        </nav>
+        <Link to='/login'>
+        <button className=" inline-flex items-center btn btn-secondary border-0 py-1 px-3 focus:outline-none hover:btn-accent rounded text-base mt-4 md:mt-0">
+         Contact me
+        </button>
+        </Link>
       </div>
-    </nav>
+    </header>
     );
 };
 
