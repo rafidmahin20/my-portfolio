@@ -1,5 +1,6 @@
 [
     {
+        "id": "1",
       "picture": "https://i.ibb.co/Gvh2bQp/tools.png",
       "picture2": "https://i.ibb.co/m4Ywm1N/Screenshot-1282.png",
       "picture3": "https://i.ibb.co/rfYmJXJ/Screenshot-1283.png",
@@ -9,6 +10,7 @@
       "details": "The project is about a manufacturing tool. There's an tools page where you can see all the tools and in their tools you can update the quantity of the tool. There's an admin page and dasboard page. I used reactjs javascript firebase(authentication) html css for frontend and for backend i used nodejs and mongodb and jwt."
     },
     {
+        "id": "2",
       "picture": "https://i.ibb.co/yhst0bQ/laptop.png",
       "picture2": "https://i.ibb.co/cFTmVwH/Screenshot-1278.png",
       "picture3": "https://i.ibb.co/h225wHM/Screenshot-1279.png",
@@ -18,6 +20,7 @@
       "details": "The project is about a warehouse management of products. There's an invnetory page where you can see all the products and in the products u can also update the quantity of the products. There's also a login and signup page. I used reactjs javascript firebase(authentication) html css and for backend i used nodejs and mongodb."
     },
     {
+        "id": "3",
       "picture": "https://i.ibb.co/t8N33PH/wedding.png",
       "picture2": "https://i.ibb.co/mDDyxvP/Screenshot-1280.png",
       "picture3": "https://i.ibb.co/pXXD620/Screenshot-1281.png",
