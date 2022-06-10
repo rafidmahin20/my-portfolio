@@ -1,0 +1,29 @@
+[
+    {
+      "picture": "https://i.ibb.co/Gvh2bQp/tools.png",
+      "picture2": "https://i.ibb.co/m4Ywm1N/Screenshot-1282.png",
+      "picture3": "https://i.ibb.co/rfYmJXJ/Screenshot-1283.png",
+      "name": "Milburn Tools",
+      "front-end": "https://github.com/rafidmahin20/milburn-tools-client/tree/main/milburn-tools",
+      "back-end": "https://github.com/rafidmahin20/milburn-tools-server",
+      "details": "The project is about a manufacturing tool. There's an tools page where you can see all the tools and in their tools you can update the quantity of the tool. There's an admin page and dasboard page. I used reactjs javascript firebase(authentication) html css for frontend and for backend i used nodejs and mongodb and jwt."
+    },
+    {
+      "picture": "https://i.ibb.co/yhst0bQ/laptop.png",
+      "picture2": "https://i.ibb.co/cFTmVwH/Screenshot-1278.png",
+      "picture3": "https://i.ibb.co/h225wHM/Screenshot-1279.png",
+      "name": "Laptop House",
+      "front-end": "https://github.com/rafidmahin20/laptop-house-client/tree/main/laptop-house",
+      "back-end": "https://github.com/rafidmahin20/laptop-house-server",
+      "details": "The project is about a warehouse management of products. There's an invnetory page where you can see all the products and in the products u can also update the quantity of the products. There's also a login and signup page. I used reactjs javascript firebase(authentication) html css and for backend i used nodejs and mongodb."
+    },
+    {
+      "picture": "https://i.ibb.co/t8N33PH/wedding.png",
+      "picture2": "https://i.ibb.co/mDDyxvP/Screenshot-1280.png",
+      "picture3": "https://i.ibb.co/pXXD620/Screenshot-1281.png",
+      "name": "Illusion Wedding",
+      "front-end": "https://github.com/rafidmahin20/illusion-wedding/tree/main/illusion-wedding",
+      "back-end": "",
+      "details": " The project is about a wedding photographer. There are 5 pages or routes. There's a service page where customer or client can see their desired packages and can book them. If a client wants to book a package they have to login to the website. In this project i used reactjs javascript html and tailwind css."
+    }
+  ]
