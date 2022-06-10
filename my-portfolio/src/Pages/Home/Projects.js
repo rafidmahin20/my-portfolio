@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Projects = ({project}) => {
   const {
@@ -7,6 +8,10 @@ const Projects = ({project}) => {
     picture,
     details
   } = project;
+  const navigate = useNavigate()
+  const navigateToDetails = id =>{
+    navigate(`/projects/projectDetails/${id}`)
+  }
   return (
     <section className="mt-10 mb-10">
         <div className="mb-10 mx-10 lg:mx-0 lg:mb-0 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
@@ -58,6 +63,7 @@ const Projects = ({project}) => {
                   </div>
                   <div className="flex space-x-2 text-sm font-medium justify-start">
                     <button
+                      onClick={() => navigateToDetails(id)}
                       className="transition ease-in duration-300 inline-flex items-center text-sm font-medium mb-2 md:mb-0 bg-primary px-5 py-3 hover:shadow-lg tracking-wider text-black rounded-full hover:border-2 hover:bg-#7a81a8 border-solid"
                     >
                       <span>See Details</span>
